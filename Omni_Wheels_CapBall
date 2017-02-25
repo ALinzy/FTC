@@ -42,8 +42,8 @@ public class CapBall_Mecanum_Wheels extends LinearOpMode
 
             // set both motors to 30% power and drives robot forward for 2 seconds.
 
-            leftreardrivemotor.setPower(-0.30);
-            rightreardrivemotor.setPower(-0.30);
+            leftreardrivemotor.setPower(0.30);
+            rightreardrivemotor.setPower(0.30);
 
             sleep(2000);        // wait for 2 seconds.
 
